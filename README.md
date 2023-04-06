@@ -64,7 +64,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Deploy docs
-        uses: CVELab/mkdocs-deploy-gh-pages@master
+        uses: CVELab/deploy-gh-pages@master
         # Or use CVELab/deploy-gh-pages@nomaterial to build without the mkdocs-material theme
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
