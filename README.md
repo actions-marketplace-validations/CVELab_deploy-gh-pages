@@ -63,7 +63,7 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v2
 
-      - name: Deploy docs
+      - name: MkDocs Deploys
         uses: CVELab/deploy-gh-pages@master
         # Or use CVELab/deploy-gh-pages@nomaterial to build without the mkdocs-material theme
         env:
