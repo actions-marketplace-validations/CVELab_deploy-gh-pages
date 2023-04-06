@@ -1,4 +1,4 @@
-# GitHub Action to deploy an MkDocs site to GitHub Pages
+# GitHub Action to deploy GitHub Pages at MkDocs site
 
 ![GitHub Badge](https://github.com/cvelib/deploy-gh-pages/workflows/Build/badge.svg)
 
