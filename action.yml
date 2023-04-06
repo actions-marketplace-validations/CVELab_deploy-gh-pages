@@ -1,0 +1,10 @@
+# action.yml
+name: 'Deploy MkDocs'
+description: 'Deploys MkDocs site'
+author: 'Gitworkflows, alerts@log4j.codes'
+branding:
+  icon: 'arrow-up-circle'  
+  color: 'orange'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
